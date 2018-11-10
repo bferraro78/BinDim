@@ -18,9 +18,13 @@
                                 <action selector="addcoutner" destination="AgC-eL-Hgc" id="DE8-ni-pUh"/>
                             </connections>
                         </button>
+                        <label width="82" height="69" alignment="left" text="20" id="t6k-eo-Ms2">
+                            <accessibilityTraits key="accessibilityTraits" none="YES"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="FirstButton" destination="Hfs-GG-reA" id="lND-M3-Prj"/>
+                        <outlet property="teamOneLifeLabel" destination="t6k-eo-Ms2" id="SmB-qX-b0Z"/>
                     </connections>
                 </controller>
             </objects>

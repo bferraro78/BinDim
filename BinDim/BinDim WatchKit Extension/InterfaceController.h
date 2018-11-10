@@ -13,7 +13,7 @@
 @interface InterfaceController : WKInterfaceController
 @property (strong, nonatomic) IBOutlet WKInterfaceButton *FirstButton;
 
-@property WKInterfaceLabel *teamOneLife;
+@property (strong, nonatomic) IBOutlet WKInterfaceLabel *teamOneLifeLabel;
 
 @property int teamOneLifeNum;
 
