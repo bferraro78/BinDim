@@ -29,7 +29,8 @@
     
     [_FirstButton setBackgroundColor:[UIColor blueColor]];
     
-    [_teamOneLife setText:@"1"];
+    _teamOneLifeNum = 0;
+    [_teamOneLife setText:[NSString stringWithFormat:@"%i", _teamOneLifeNum]];
     
     
 //    UIGestureRecognizer *allRecognizer = [[UIGestureRecognizer alloc] initWithTarget:self action:nil];
@@ -40,8 +41,8 @@
 }
 
 - (IBAction)addcoutner {
-    
-    _teamOneLife
+    _teamOneLifeNum++;
+    [_teamOneLife setText:[NSString stringWithFormat:@"%i", _teamOneLifeNum]];
 }
 
 //- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
